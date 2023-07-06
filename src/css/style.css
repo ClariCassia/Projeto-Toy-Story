@@ -1,3 +1,40 @@
 body{
-    font-family: 'Oxanium', cursive;
+    background-image: url(../imagens/bg-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Oxanium', cursive; 
+    height: 100vh;
+    display: flex;   
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    
 }
+.cabecalho{
+    padding: 30px;
+}
+
+
+main{    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.personagens{
+    text-align: center;
+}
+
+.titulo{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.lista-personagens{
+    max-width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;   
+}
+
