@@ -35,7 +35,7 @@ body::before{
 .selecao-personagens .lista-personagens {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;/* 30?*/
+    gap: 17px;
     justify-content: center;
 }
 
