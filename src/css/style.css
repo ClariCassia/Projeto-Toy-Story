@@ -23,6 +23,11 @@ body::before {
     justify-content: center;
 }
 
+
+.cabecalho img {
+    width: 229px;
+    height: 160px;
+}
 .selecao-personagens {
     display: flex;
     align-items: center;
@@ -59,8 +64,8 @@ body::before {
 }
 
 .lista-personagens .personagem {
-    width: 159px;
-    height: 170px;
+    width: 149px;
+    height: 160px;
 }
 
 .lista-personagens .personagem img {
@@ -78,8 +83,8 @@ body::before {
 }
 
 .personagem-selecionado .personagem-maior {
-    width: 430px;
-    height: 430px;
+    width: 330px;
+    height: 470px;
 }
 
 .personagem-selecionado .nome-personagem {
@@ -92,7 +97,7 @@ body::before {
 .personagem-selecionado .descricao-personagem {
     font-size: 16px;
     line-height: 22px;
-    text-align: center;
+    text-align: justify;
     margin-top: 20px;
     width: 420px;
 }
