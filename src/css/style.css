@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    font-family: 'Peace Sans';
+    font-family: 'Gill Sans Italic';
     color: #fff;
 }
 
@@ -54,7 +54,7 @@ body::before {
 }
 
 .selecao-personagens .personagens .titulo {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     letter-spacing: 4px;
     border-bottom: 2px solid #FFDA00;
@@ -95,7 +95,7 @@ body::before {
 }
 
 .personagem-selecionado .descricao-personagem {
-    font-size: 16px;
+    font-size: 17px;
     line-height: 22px;
     text-align: justify;
     margin-top: 20px;
