@@ -52,4 +52,4 @@ Foi um projeto bem divertido de se trabalhar, pois envolveu o uso de recursos in
 
 ## Acesso a página
 
-Se você quiser conferir o projeto pronto [clique aqui ](https://claricassia.github.io/Formulario-com-validacao-JS/)
+Se você quiser conferir o projeto pronto [clique aqui ](https://claricassia.github.io/Projeto-Toy-Story/)
