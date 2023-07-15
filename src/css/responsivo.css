@@ -1,18 +1,20 @@
 @media(max-width: 1025px) {
-
     .cabecalho .logo {
-        max-width: 290px;
+        max-width: 160px;
     }
 
     .selecao-personagens {
         flex-direction: row;
         max-width: 90%;
         margin: 0 auto;
-        gap: 2px;
     }
 
     .selecao-personagens .personagens .titulo {
         font-size: 15px;
+    }
+
+    .selecao-personagens .lista-personagens {
+        gap: 9px;
     }
 
     .lista-personagens .personagem img {
@@ -21,16 +23,11 @@
 
     .personagem-selecionado .personagem-maior {
         width: 350px;
-        height: 350px;
-    }
-
-    .selecao-personagens .lista-personagens {
-        gap: 9px;
+        height: 400px;
     }
 
     .personagem-selecionado .descricao-personagem {
-        font-size: 16px;
-        width: 80%;
+        width: 90%;
         margin: 20px auto;
     }
 }
@@ -39,31 +36,77 @@
 
     .selecao-personagens {
         flex-direction: column-reverse;
+        max-width: 90%;
     }
 
     .lista-personagens .personagem img {
-        width: 60px;
+        width: 62px;
     }
 
-    .personagem-selecionado .descricao-personagem {
-        font-size: 18px;
-        width: 90%;
+    .personagem-selecionado .personagem-maior {
+        width: 350px;
+        height: 410px;
     }
 }
 
 @media(max-width: 576px) {
-
     .cabecalho .logo {
-        max-width: 190px;
+        max-width: 120px;
+    }
+
+    .selecao-personagens {
+        gap: 0;
+        margin-top: 20px;
+    }
+
+    .lista-personagens .personagem img {
+        width: 50px;
     }
 
     .personagem-selecionado .personagem-maior {
-        width: 250px;
-        height: 250px;
+        width: 190px;
+        height: 240px;
     }
 
     .personagem-selecionado .descricao-personagem {
         font-size: 15px;
-        width: 90%;
+    }
+}
+
+@media(max-width: 410px) {
+    .cabecalho .logo {
+        max-width: 110px;
+    }
+
+    .lista-personagens .personagem img {
+        width: 45px;
+    }
+
+    .personagem-selecionado .personagem-maior {
+        width: 150px;
+        height: 200px;
+    }   
+}
+
+@media(max-width: 360px) {
+    .cabecalho .logo {
+        max-width: 90px;
+    }
+
+    .selecao-personagens .personagens .titulo {
+        font-size: 12px;
+    }
+
+    .personagem-selecionado .personagem-maior {
+        width: 120px;
+        height: 150px;
+    }
+
+    .personagem-selecionado .nome-personagem {
+        font-size: 15px;
+    }
+
+    .personagem-selecionado .descricao-personagem {
+        font-size: 13px;
     }
 }
