@@ -70,16 +70,18 @@ body::before {
 
 .lista-personagens .personagem.selecionado {
     box-shadow: 0px 0px 24px 5px #E30020;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
 }
 
 .selecao-personagens .personagem-selecionado {
     text-align: center;
-    max-height: 530px;
+    max-height: 530px;    
 }
 
 .personagem-selecionado .personagem-maior {
-    width: 390px;
-    height: 420px;
+    width: 350px;
+    height: 420px;    
 }
 
 .personagem-selecionado .nome-personagem {
