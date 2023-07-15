@@ -18,7 +18,7 @@ body::before {
 }
 
 .cabecalho {
-    padding-top: 10px;
+    padding-top: 20px;
     display: flex;
     justify-content: center;
 }
@@ -35,7 +35,7 @@ body::before {
 .selecao-personagens .lista-personagens {
     display: flex;
     flex-wrap: wrap;
-    gap: 17px;
+    gap: 30px;
     justify-content: center;
 }
 
@@ -49,15 +49,19 @@ body::before {
 }
 
 .selecao-personagens .personagens .titulo {
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 20px;
     letter-spacing: 4px;
     border-bottom: 2px solid #FFDA00;
     width: 100%;
     text-align: center;
-    padding: 5px;
+    padding: 2px;
 }
 
+.lista-personagens .personagem {
+    -webkit-box-shadow: 6px 3px 8px 1px rgba(0, 0, 0, 0.61);
+    -moz-box-shadow: 6px 3px 8px 1px rgba(0, 0, 0, 0.61);
+    box-shadow: 6px 3px 8px 1px rgba(0, 0, 0, 0.61);
+}
 
 .lista-personagens .personagem img {
     width: 100%;
@@ -70,12 +74,12 @@ body::before {
 
 .selecao-personagens .personagem-selecionado {
     text-align: center;
-    max-height: 620px;
+    max-height: 530px;
 }
 
 .personagem-selecionado .personagem-maior {
-    width: 330px;
-    height: 470px;    
+    width: 390px;
+    height: 420px;
 }
 
 .personagem-selecionado .nome-personagem {
@@ -86,7 +90,7 @@ body::before {
 }
 
 .personagem-selecionado .descricao-personagem {
-    font-size: 17px;
+    font-size: 18px;
     line-height: 22px;
     text-align: justify;
     margin-top: 20px;
